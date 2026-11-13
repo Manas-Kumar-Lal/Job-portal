@@ -3,12 +3,13 @@ import { Route, Routes } from 'react-router'
 import Home from './pages/Home'
 import JobApply from './pages/JobApply'
 import Applications from './pages/Applications'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <>
-    <h1 className='bg-red-400'>hi</h1>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/applications" element={<Applications />} />
