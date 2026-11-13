@@ -8,12 +8,12 @@ function App() {
 
   return (
     <>
+    <h1 className='bg-red-400'>hi</h1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/applications" element={<Applications />} />
         <Route path="/job-apply" element={<JobApply />} />
       </Routes>
-      <h1 className='bg-red-500'>Hello my friend</h1>
     </>
   )
 }
