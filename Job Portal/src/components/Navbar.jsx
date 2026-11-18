@@ -7,7 +7,7 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <a href="/" className="text-3xl font-bold tracking-tight text-gray-900 flex items-center">
-                    <LuBriefcaseBusiness className="text-red-700"/>
+                    <LuBriefcaseBusiness className="text-red-700" />
                     Naukar<span className="text-red-700">.</span>
                 </a>
 
